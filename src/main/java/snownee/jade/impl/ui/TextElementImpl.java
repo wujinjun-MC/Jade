@@ -20,7 +20,7 @@ public class TextElementImpl extends TextElement implements GuiEventListener {
 
 	protected final FormattedText text;
 	protected float scale = 1;
-	private int textWidth;
+	private final int textWidth;
 
 	public TextElementImpl(Component component) {
 		this((FormattedText) component);
