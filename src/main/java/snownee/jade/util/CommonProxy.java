@@ -410,7 +410,6 @@ public final class CommonProxy implements ModInitializer {
 					.map($ -> $.getMetadata().getVersion().getFriendlyString())
 					.orElse("UNKNOWN");
 			player.displayClientMessage(Component.translatable("jade.protocolMismatch", version), false);
-			return;
 		}
 		((JadeServerPlayer) player).jade$setConnected(true);
 		Map<ResourceLocation, Object> configs = ServerPluginConfig.instance().values();

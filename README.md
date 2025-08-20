@@ -1,3 +1,6 @@
+1. 协议版本不一致时，强制继续连接(移除"return")
+2. 合并最新中文翻译
+
 # Jade
 
 [Documentation](https://jademc.readthedocs.io/en/latest/)
