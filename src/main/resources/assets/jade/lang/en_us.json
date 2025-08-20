@@ -422,7 +422,7 @@
 	"jade.block_ignite_odds": "Ignite odds: %s",
 	"jade.block_burn_odds": "Burn odds: %s",
 	"jade.ignore_list.comment": "This is an ignore list for the target of Jade. You can add registry ids to the \"values\" list.",
-	"jade.protocolMismatch": "You are using a different version of Jade than the server. Please update Jade to %s.",
+	"jade.protocolMismatch": "You are using a different version of Jade than the server. Please update Jade to %s. (Force connection by wujinjun-MC)",
 	"jade.metadata": "{lang:[en_us],nameClasses:{}}",
 	"__comment": "Only for testing:",
 	"jade.modName.cpp": "Crafting++",
